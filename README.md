@@ -1,6 +1,7 @@
 # AMR_task2
 
-Read through and commented the following files
+<img width="1392" alt="image" src="/dragon.png" />
+
 ## The struggles
 
 So, first thing I did was change the default green box as the bot model, cause I need something better, that was surprisingly harder than I thought like, I spent the whole day doing that.
@@ -11,7 +12,7 @@ Turns out changing the path in the custom figure.py wasn't enough, I had to chan
 
 I picked the following files to comment on and modify
 - pose_basics.py
-- simulate_custom-figure.py
+- simulate_custom-figure.py (current bookmark)
 - live_kinematics_demo.py
 - minimal_drive_and_play.py
 - motion_two_wheel.py

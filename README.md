@@ -10,7 +10,7 @@ Turns out changing the path in the custom figure.py wasn't enough, I had to chan
 
 ## Actual Assignment
 
-I picked the following files to comment on and modify. Basically all motions follow the same format<br>
+I picked the following files to comment on. Basically all motions follow the same format<br>
 
 - pose_basics.py (had to modify library again to rotate the image)
 - simulate_custom-figure.py 

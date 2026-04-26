@@ -10,13 +10,17 @@ Turns out changing the path in the custom figure.py wasn't enough, I had to chan
 
 ## Actual Assignment
 
-I picked the following files to comment on and modify
-- pose_basics.py
-- simulate_custom-figure.py (current bookmark)
-- live_kinematics_demo.py
-- minimal_drive_and_play.py
+I picked the following files to comment on and modify. Basically all motions follow the same format<br>
+
+- pose_basics.py (had to modify library again to rotate the image)
+- simulate_custom-figure.py 
+- live_kinematics_demo.py 
 - motion_two_wheel.py
-- live_ackermann_session.py
-- motion_ackermann_demo.py
-- motion_bicycle_demo.py
+- motion_ackermann_demo.py (same as bicycle??)
+- motion_bicycle_demo.py (same as ackermann??)
+- motion_differential_demo.py 
 - motion_mecanum_demo.py
+- minimal_drive_and_play.py (changed speed here)
+- mecanum holonomic
+
+<br>I also defined some wheel types like Ackermann and Mecanum at the top of the code since I didn't teally know them before

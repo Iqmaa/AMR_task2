@@ -20,11 +20,13 @@ session = amr.MotionSession.create(
     differential=params,
 )
 
+# self explanatory
 session.forward_wheels(1.2, 1.0)
 session.turn_right(math.pi / 3, 1.2)
 session.differential_drive_wheels(0.3, 1.2, duration=1.5)
 session.forward(0.8, 0.5)
 
+#self explanatory at this point
 fig, ax = plt.subplots(figsize=(8, 8))
 amr.plot_motion(session, ax=ax, show=False)
 fig.savefig(os.path.join(os.path.dirname(__file__), "motion_differential_demo.png"), dpi=150)

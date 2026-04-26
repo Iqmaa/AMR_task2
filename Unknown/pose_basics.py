@@ -26,8 +26,8 @@ print("Pose(...) ->", q)
 
 # just defining the poses for each cardinal points so the robot faces their respective directions
 north = amr.pose(0, 1, 0)
-west = amr.pose(0, -1, math.pi / 2) #90 deg
-south = amr.pose(-1, 0, math.pi) #180 deg
+west = amr.pose(-1, 0, math.pi / 2) #90 deg
+south = amr.pose(0, -1, math.pi) #180 deg
 east = amr.pose(1, 0, 3 * math.pi / 2) # 270 deg
 print("north theta=0:", north.theta, " west theta=π/2:", west.theta) #shows the value of the angles(in degrees) in rad in the terminal
 

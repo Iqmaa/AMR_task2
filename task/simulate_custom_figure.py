@@ -27,7 +27,7 @@ fig.suptitle("Custom figure: AuroraMR simulate on supplied axes") #as the name s
 
 amr.simulate(p, ax=ax, show=False) #actually draws the graph into the space
 
-img_path = os.path.join(os.path.dirname(__file__), "toothless.jpeg") #finding the image file
+img_path = os.path.join(os.path.dirname(__file__), "toothless.png") #finding the image file
 robot_img = mpimg.imread(img_path) #reads the image
 
 imagebox = OffsetImage(robot_img, zoom=0.1)#wraps image in container for control

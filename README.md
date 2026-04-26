@@ -6,7 +6,9 @@
 
 So, the first thing I did was change the default green box as the bot model, because I needed something better, and that was surprisingly harder than I thought. like, I spent almost the whole day doing that.<br>
 
-Turns out changing the path in the custom figure.py wasn't enough, I had to change it from the Aurora AMR library itself, and even finding the file the green polygon was defined was tough let alone changing it. But i did !! eventually.
+Turns out changing the path in the custom figure.py wasn't enough, I had to change it from the Aurora AMR library itself, and even finding the file the green polygon was defined was tough let alone changing it. But i did !! eventually.<br>
+
+Kept getting a black box behind the dragon at some point, was because it was initially a jpeg and apparently those have no alpha channel so no inbuilt transparency and its harder to use for rotation. modified the library again to set transparency manually, cause even just converting the file to png didn't work since it wasn't originally like that
 
 ## Actual Assignment
 
